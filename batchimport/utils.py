@@ -2,8 +2,8 @@ from os.path import join, isfile
 
 from django.conf import settings
 from django.db import models
-from django.db.models import get_model, related
-from django.db.models.fields import AutoField
+from django.db.models import get_model
+from django.db.models.fields import AutoField, related
 
 import xlrd
 
